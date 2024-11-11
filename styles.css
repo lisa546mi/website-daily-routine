@@ -1,0 +1,43 @@
+/*Hintergrund*/
+body {
+    margin: 0; /* Auslassung der Randzone */
+    font-family: Arial, sans-serif;
+    background-image: url(background.png);
+    background-size: cover; /* Das Bild wird auf die Größe des Fensters angepasst */
+    background-position: center; /* Das Bild wird im Zentrum des Fensters angezeigt */
+    display: flex; /* Die Elemente werden in einer Reihe angeordnet */
+    justify-content: center; /* Die Elemente werden horizontal zentriert */
+    align-items: center; /* Die Elemente werden vertikal zentriert */
+    height: 100vh; /* Die Höhe des Fensters wird auf die Höhe des Bildschirms gesetzt */
+    color: white;
+    text-align: center; 
+}
+
+/* Container for list*/
+.container {
+    background: rgba(255, 255, 255, 0.685); /* Container color */
+    padding: 20px 40px; 
+    border-radius: 10px; /*Runderung des Containers*/
+    max-width: 600px; /*Maximalbreite des Containers*/
+}
+/*Überschrift*/
+h1 {
+    font-size: 2.7em;
+    margin-bottom: 20px; /* Platz zwischen Überschrift und Liste */
+    color: #6c74d2;
+
+}
+/*List*/
+.routine-list {
+    margin-left: 35px; /*Abstand von linke Seite*/
+    padding: 0; /*Entfernung zwischen Einträgen*/
+    color: #eaa6ae;
+    list-style-type: disc; /* Punkt-list */
+    font-weight: bold; /*Dicker Text*/
+}
+/*List element*/
+.routine-list li {
+    text-align: left;
+    font-size: 1.4em;
+    margin: 10px 0; /*Platz zwischen den Texts*/
+}
